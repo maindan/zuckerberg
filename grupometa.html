@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zuckerberg - biografia</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/facebook.png" alt="facebook logo">
+        <ul>
+            <li>
+                <a href="./index.html">Início</a>
+            </li>
+            <li>
+                <a href="historico.html">Histórico</a>
+            </li>
+            <li>
+                <a href="grupometa.html">Meta</a>
+            </li>
+        </ul>
+        <input type="checkbox">
+    </header>
+    <main>
+        <section class="container-box" id="metabox">
+            <h1>Grupo Meta</h1>
+            <p>Quando o Facebook foi lançado em 2004, ele mudou a maneira como as pessoas se conectam. Apps como o
+                Messenger, o Instagram e o WhatsApp aproximaram ainda mais bilhões de pessoas em todo o mundo. A Meta
+                está indo além das telas 2D em direção a experiências imersivas como realidade aumentada, virtual e
+                mista para ajudar a construir a próxima etapa na evolução da tecnologia social.
+            </p>
+            <section id="products">
+                <ul>
+                    <li class="product" data-company="Facebook">
+                        <img src="assets/facebook.png" alt="">
+                    </li>
+                    <li class="product" data-company="Instagram">
+                        <img src="assets/instagram.png" alt="">
+                    </li>
+                    <li class="product" data-company="WhatsApp">
+                        <img src="assets/whatsapp.png" alt="">
+                    </li>
+                    <li class="product" data-company="Messenger">
+                        <img src="assets/mensageiro.png" alt="">
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <dialog class="modal">
+            <!-- Conteúdo do modal -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="company-name"></h2>
+                <p id="company-info"></p>
+            </div>
+        </dialog>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
